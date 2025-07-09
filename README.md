@@ -1,2 +1,35 @@
-# anomaly-detection-gaussian-model
-Anomaly detection using Multivariate Gaussian distribution. This project implements a probabilistic model to identify outliers in multivariate data based on statistical thresholds. Evaluation is performed using cross-validation and F1 score metrics. Ideal for applications in fraud detection, sensor fault analysis, and rare event identification.
+# Anomaly Detection with Multivariate Gaussian Distribution
+
+This repository contains Python code for anomaly detection using a probabilistic machine learning approach. The algorithm models the normal behavior of data using a Multivariate Gaussian distribution and flags data points as anomalies based on a learned probability threshold.
+
+## 🔍 Overview
+
+- Estimate data distribution parameters (mean and variance)
+- Compute probability for each data point
+- Select threshold using F1-score on validation set
+- Detect anomalies based on probability threshold
+
+## 📊 Technologies Used
+
+- Python 3
+- NumPy
+- SciPy
+- Matplotlib
+- Scikit-learn (for evaluation)
+
+## 📈 Applications
+
+- Fraud detection
+- Network intrusion detection
+- Equipment fault diagnosis
+- Rare event prediction
+
+## 📁 Structure
+
+- `anomaly_detection.py`: Core implementation
+- `utils.py`: Helper functions for visualization and data loading
+- `data/`: Example datasets
+- `notebooks/`: Jupyter notebooks for experimentation
+
+## ✅ Author
+Muhammad Saeed
